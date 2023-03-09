@@ -1,0 +1,82 @@
+.profile{
+    display: flex;
+    flex-flow: column nowrap;
+    margin-top: 100px;
+    align-items: center;
+}
+
+.profileInfo{
+    display: flex;
+    flex-flow: column nowrap;
+    width: 325px;
+    height: 100px;
+    margin: 20px;
+    padding: 20px;
+    border: solid 1px black;
+}
+
+.profileInfoTitle{
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.profileInfoTitleItem:nth-child(1){
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+.profileInfoTitleItem:nth-child(2){
+    font-size: 12px;
+    background-color: red;
+    color: white;
+    padding: 10px;
+    margin-left: 180px;
+}
+
+.profileInfoContent{
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.profileImage{
+    width: 80px;
+    margin-left: -10px;
+}
+
+.profileInfoData{
+    display: flex;
+    flex-flow: column nowrap;
+    margin-left: 10px;
+}
+
+.profileInfoDataItem{
+    font-size: 13px;
+    color: gray;
+}
+
+.profileInfoDataItem:nth-child(1){
+    font-size: 15px;
+    color: black;
+}
+
+.profileAccount{
+    display: flex;
+    flex-flow: column nowrap;
+    border: solid 1px black;
+    width: 325px;
+    height: 175px;
+    margin: 20px;
+    padding: 20px;
+}
+
+.profileAccountItem{
+    margin: 5px;
+    margin-top: 20px;
+}
+
+.profileAccountItem:nth-child(1){
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 5px;
+}

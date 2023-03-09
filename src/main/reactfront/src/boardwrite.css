@@ -1,0 +1,33 @@
+.writeHeader {
+    display: flex;
+    flex-flow: row nowrap;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.backButton {
+    height: 30px;
+    width: 60px;
+    font-size: 10px;
+    margin-left: 350px;
+}
+
+.infoTextWrite {
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 40px;
+}
+
+.layout {
+    width : 500px;
+    margin: 30px;
+}
+.layout input {
+    width : 100%;
+    box-sizing : border-box;
+}
+.layout textarea {
+    width : 100%;
+    margin-top : 10px;
+    min-height : 200px;
+}
